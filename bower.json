@@ -1,0 +1,20 @@
+{
+  "name": "github-commits",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jamey McAuliffe <jpmcauliffe15@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JameyMcAuliffe/github-commits",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
