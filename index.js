@@ -10,6 +10,8 @@ const port = process.env.PORT || 3000
 app.set('port', port)
 
 
+//middlewares
+app.use(express.static('public'))
 
 //Routes
 app.get('/', (req, res) => {
